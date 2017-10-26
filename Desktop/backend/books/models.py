@@ -7,7 +7,6 @@ class bookly(models.Model):
     book_name = models.CharField(max_length=100)
     book_semester = models.IntegerField()
     book_branch = models.CharField(max_length=100)
-    book_price = models.IntegerField()
     book_condition = models.CharField(max_length=100)
 
     def __str__(self):
